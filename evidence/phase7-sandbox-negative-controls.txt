@@ -1,0 +1,10 @@
+test_boundaries_and_negative_control (__main__.Sandbox) ... ok
+test_filter_missing_fails_closed (__main__.Sandbox) ... ok
+test_owned_process_tree_is_reaped (__main__.Sandbox) ... ok
+test_seccomp_negative_control_detects_missing_affinity_rule (__main__.Sandbox) ... ok
+test_socket_connect_negative_control (__main__.Sandbox) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.357s
+
+OK

@@ -1,0 +1,57 @@
+verified scope memory.max=150994944 pids.max=64
+verified one-CPU affinity=0, swap.max=134217728
+NAME="Ubuntu"
+VERSION="20.04.6 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.6 LTS"
+VERSION_ID="20.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
+glibc 2.31
+Python 3.12.16
+WARNING: The directory '/work/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Looking in links: /wheels
+Processing /wheels/attrs-26.1.0-py3-none-any.whl (from -r /work/phase3/requirements-ubuntu20-py312.lock (line 1))
+Processing /wheels/cffi-1.17.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (from -r /work/phase3/requirements-ubuntu20-py312.lock (line 2))
+Processing /wheels/cryptography-44.0.3-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (from -r /work/phase3/requirements-ubuntu20-py312.lock (line 3))
+Processing /wheels/pyasn1-0.6.5-py3-none-any.whl (from -r /work/phase3/requirements-ubuntu20-py312.lock (line 4))
+Processing /wheels/pyasn1_modules-0.4.2-py3-none-any.whl (from -r /work/phase3/requirements-ubuntu20-py312.lock (line 5))
+Processing /wheels/pycparser-3.12-py3-none-any.whl (from -r /work/phase3/requirements-ubuntu20-py312.lock (line 6))
+Processing /wheels/pyhpke-0.6.4-py3-none-any.whl (from -r /work/phase3/requirements-ubuntu20-py312.lock (line 7))
+Processing /wheels/pyopenssl-25.1.0-py3-none-any.whl (from -r /work/phase3/requirements-ubuntu20-py312.lock (line 8))
+Processing /wheels/service_identity-24.2.0-py3-none-any.whl (from -r /work/phase3/requirements-ubuntu20-py312.lock (line 9))
+Processing /wheels/typing_extensions-4.16.0-py3-none-any.whl (from -r /work/phase3/requirements-ubuntu20-py312.lock (line 10))
+Processing /wheels/zstandard-0.25.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (from -r /work/phase3/requirements-ubuntu20-py312.lock (line 11))
+Installing collected packages: zstandard, typing_extensions, pycparser, pyasn1, attrs, pyasn1_modules, cffi, cryptography, service_identity, pyopenssl, pyhpke
+
+Successfully installed attrs-26.1.0 cffi-1.17.1 cryptography-44.0.3 pyasn1-0.6.5 pyasn1_modules-0.4.2 pycparser-3.12 pyhpke-0.6.4 pyopenssl-25.1.0 service_identity-24.2.0 typing_extensions-4.16.0 zstandard-0.25.0
+test_cli_upload_download_manual_and_cancel (test_resume_cli.CLI.test_cli_upload_download_manual_and_cancel) ... ok
+test_kill_before_and_after_publication (test_resume_crash.Crash.test_kill_before_and_after_publication) ... ok
+test_manual_resume_after_server_restart (test_resume_download_tls.DownloadTLS.test_manual_resume_after_server_restart) ... ok
+test_cancel_and_disable_reject (test_resume_store.ResumeTests.test_cancel_and_disable_reject) ... ok
+test_client_refuses_when_staging_space_is_low (test_resume_store.ResumeTests.test_client_refuses_when_staging_space_is_low) ... ok
+test_download_cache_crash_reconciliation_fails_closed (test_resume_store.ResumeTests.test_download_cache_crash_reconciliation_fails_closed) ... ok
+test_expiry_and_empty_cancel_cleanup (test_resume_store.ResumeTests.test_expiry_and_empty_cancel_cleanup) ... ok
+test_finish_publishes_once_with_full_manifest (test_resume_store.ResumeTests.test_finish_publishes_once_with_full_manifest) ... ok
+test_incomplete_write_orphan_reconciliation (test_resume_store.ResumeTests.test_incomplete_write_orphan_reconciliation) ... ok
+test_low_disk_blocks_new_and_existing_chunks (test_resume_store.ResumeTests.test_low_disk_blocks_new_and_existing_chunks) ... ok
+test_manifest_and_committed_chunk_immutable (test_resume_store.ResumeTests.test_manifest_and_committed_chunk_immutable) ... ok
+test_manifest_corruption_and_expiration_cleanup (test_resume_store.ResumeTests.test_manifest_corruption_and_expiration_cleanup) ... ok
+test_missing_committed_chunk_is_failure (test_resume_store.ResumeTests.test_missing_committed_chunk_is_failure) ... ok
+test_missing_or_damaged_committed_chunk_is_failure (test_resume_store.ResumeTests.test_missing_or_damaged_committed_chunk_is_failure) ... ok
+test_partial_write_and_disk_full_do_not_advance (test_resume_store.ResumeTests.test_partial_write_and_disk_full_do_not_advance) ... ok
+test_publication_fsync_failure_can_retry (test_resume_store.ResumeTests.test_publication_fsync_failure_can_retry) ... ok
+test_reordered_ciphertext_does_not_publish (test_resume_store.ResumeTests.test_reordered_ciphertext_does_not_publish) ... ok
+test_reserved_staging_budget_rejects_before_receiving_data (test_resume_store.ResumeTests.test_reserved_staging_budget_rejects_before_receiving_data) ... ok
+test_wrong_key_denied_before_begin (test_resume_store.ResumeTests.test_wrong_key_denied_before_begin) ... ok
+test_disconnect_recovery_and_no_duplicate_chunks (test_resume_tls.ResumeTLS.test_disconnect_recovery_and_no_duplicate_chunks) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 24.808s
+
+OK

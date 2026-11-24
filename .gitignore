@@ -1,0 +1,7 @@
+.venv/
+.local-test/
+__pycache__/
+*.pyc
+*.key
+*.pem
+.env

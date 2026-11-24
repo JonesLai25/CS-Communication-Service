@@ -1,0 +1,2 @@
+regular archive files compared: 3522 mismatches: 3
+first mismatches: ['python/lib/python3.12/encodings/__pycache__/__init__.cpython-312.pyc', 'python/lib/python3.12/encodings/__pycache__/aliases.cpython-312.pyc', 'python/lib/python3.12/encodings/__pycache__/utf_8.cpython-312.pyc']

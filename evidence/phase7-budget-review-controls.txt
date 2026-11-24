@@ -1,0 +1,21 @@
+test_archive (__main__.ReviewPackage) ... ok
+test_missing_and_symlink (__main__.ReviewPackage) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.625s
+
+OK
+test_dirty_worktree_rejected_before_export (__main__.Delivery) ... ok
+test_durable_publication_and_no_overwrite (__main__.Delivery) ... ok
+test_mutation_detected (__main__.Delivery) ... /usr/lib/python3.10/zipfile.py:1541: UserWarning: Duplicate name: 'README.md'
+  return self._open_to_write(zinfo, force_zip64=force_zip64)
+ok
+test_real_exporter_metadata_matches_delivery_verifier (__main__.Delivery) ... ok
+test_revision_and_manifest (__main__.Delivery) ... ok
+test_temporary_path_rejected_even_on_persistent_filesystem (__main__.Delivery) ... ok
+test_tmpfs_rejected_before_export (__main__.Delivery) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.406s
+
+OK

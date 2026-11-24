@@ -1,0 +1,12 @@
+verified release commit: 8d41e158ad2dc786336029b0de2bd918a21ab14e
+{"previous": null, "release": "releases/61ccd9df0be02521483a4747b6c12b1f77b8c874a44d5213f78ab247b4ac6d9e-5fc239d982e3", "status": "installed", "version": "61ccd9df0be02521483a4747b6c12b1f77b8c874a44d5213f78ab247b4ac6d9e"}
+
+requested aggregate slice csphase5afc65b5eb6f6.slice: memory.max=201326592 swap.max=134217728 pids.max=64
+test_installed_service_auth_transfer_exec_and_live_upgrade (__main__.InstalledService) ... sampled test allocated bytes: 76413952 limit: 536870912
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 28.182s
+
+OK
+test slice and properties removed: csphase5afc65b5eb6f6.slice

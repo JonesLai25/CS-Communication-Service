@@ -1,0 +1,8 @@
+verified scope memory.max=150994944 pids.max=64
+verified one-CPU affinity=0, swap.max=134217728
+test_install_start_tls_and_uninstall (__main__.ReleaseContainer.test_install_start_tls_and_uninstall) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 13.363s
+
+OK
